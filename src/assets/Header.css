@@ -1,0 +1,20 @@
+.header {
+  display: flex;
+  justify-content: space-between;
+  /* text-decoration: none; */
+  background-color: #b0d9f1;
+}
+.header_logo {
+  margin-left: 50px;
+}
+.header_option {
+  margin: 20px;
+  font-size: x-large;
+  margin-top: 30px;
+}
+.header_option_lineOne > span {
+  text-decoration: none !important;
+}
+.header_option_lineTwo {
+  padding-left: 18px;
+}

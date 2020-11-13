@@ -1,0 +1,39 @@
+.displayTextbox {
+  margin-left: 30%;
+  display: flex;
+}
+.display_textbox1,
+.display_textbox2 > label {
+  font-size: x-large;
+}
+.display_textbox1 {
+  padding: 60px;
+}
+.display_textbox2 {
+  padding: 60px;
+}
+.display_textbox1 > input,
+label {
+  margin: 10px;
+  height: auto;
+}
+
+.display_textbox1 > input {
+  overflow: scroll;
+}
+
+.display_textbox2 > input {
+  overflow: scroll;
+}
+.display_Content {
+  display: flex;
+  /* margin-left: 25%; */
+  justify-content: space-around;
+}
+#view1,
+#view2 {
+  visibility: hidden;
+  width: 500px;
+  height: 500px;
+  border: 1px solid black;
+}
